@@ -7,6 +7,7 @@ pluginManagement {
 
 
 include ':api'
+include ':utils'
 include ':microservices:product-service'
 include ':microservices:review-service'
 include ':microservices:recomendation-service'
