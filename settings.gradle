@@ -1,0 +1,13 @@
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+    }
+}
+
+
+include ':api'
+include ':microservices:product-service'
+include ':microservices:review-service'
+include ':microservices:recomendation-service'
+include ':microservices:product-composite-service'
