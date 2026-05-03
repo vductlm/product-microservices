@@ -1,13 +1,13 @@
-package com.ductlmse.microservice.core.review;
+package com.ductlmse.microservices.utils;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ReviewServiceApplication {
+public class UtilsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ReviewServiceApplication.class, args);
+		SpringApplication.run(UtilsApplication.class, args);
 	}
 
 }

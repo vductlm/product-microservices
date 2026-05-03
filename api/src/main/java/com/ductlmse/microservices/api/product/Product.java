@@ -1,4 +1,4 @@
-package com.ductlmse.microservice.product;
+package com.ductlmse.microservices.api.product;
 
 public class Product {
 

@@ -1,4 +1,4 @@
-package com.ductlmse.microservice.product;
+package com.ductlmse.microservices.api.product;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
