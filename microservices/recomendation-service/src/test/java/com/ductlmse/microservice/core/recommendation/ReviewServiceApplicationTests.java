@@ -1,10 +1,10 @@
-package com.ductlmse.microservice;
+package com.ductlmse.microservice.core.recommendation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class UtilsApplicationTests {
+class ReviewServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

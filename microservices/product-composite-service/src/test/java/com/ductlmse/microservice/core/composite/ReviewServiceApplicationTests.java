@@ -1,4 +1,4 @@
-package com.ductlmse.microservice.core.review;
+package com.ductlmse.microservice.core.composite;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
