@@ -14,4 +14,19 @@ public class Product {
         this.serviceAddress = serviceAddress;
     }
 
+    public int getProductId() {
+        return productId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public double getWeight() {
+        return weight;
+    }
+
+    public String getServiceAddress() {
+        return serviceAddress;
+    }
 }

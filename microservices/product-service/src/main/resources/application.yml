@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: product-service
+
+
+server:
+  port: 7200
+
+logging:
+  level:
+    root: INFO
+    com.ductlmse.microservices.core.product: DEBUG

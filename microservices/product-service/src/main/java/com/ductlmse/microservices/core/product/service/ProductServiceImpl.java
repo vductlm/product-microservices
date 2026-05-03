@@ -2,12 +2,26 @@ package com.ductlmse.microservices.core.product.service;
 
 import com.ductlmse.microservices.api.product.Product;
 import com.ductlmse.microservices.api.product.ProductService;
-import org.springframework.stereotype.Service;
+import com.ductlmse.microservices.utils.services.ServiceUtils;
+import org.springframework.web.bind.annotation.RestController;
 
-@Service
+import java.util.Random;
+
+@RestController
 public class ProductServiceImpl implements ProductService {
+
+    private final ServiceUtils serviceUtils;
+
+    public ProductServiceImpl(ServiceUtils ser) {
+        this.serviceUtils = ser;
+    }
+
     @Override
     public Product getProduct(int productId) {
-        return null;
+        System.out.println("Get product by id: " + productId);
+        return new Product(
+                productId,
+                "name-" + productId,
+                123, this.serviceUtils.getServiceAddress());
     }
 }
