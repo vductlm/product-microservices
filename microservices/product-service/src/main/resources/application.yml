@@ -1,7 +1,9 @@
 spring:
   application:
     name: product-service
-
+  config:
+    activate:
+      on-profile: docker
 
 server:
   port: 7200
@@ -10,3 +12,12 @@ logging:
   level:
     root: INFO
     com.ductlmse.microservices.core.product: DEBUG
+
+---
+spring:
+  config:
+    activate:
+      on-profile: docker
+
+server:
+  port: 8080
