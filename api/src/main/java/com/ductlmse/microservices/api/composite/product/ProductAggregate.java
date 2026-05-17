@@ -1,5 +1,8 @@
 package com.ductlmse.microservices.api.composite.product;
 
+import com.ductlmse.microservices.api.composite.recommendation.RecommendationSummary;
+import com.ductlmse.microservices.api.composite.review.ReviewSummary;
+
 import java.util.List;
 
 public class ProductAggregate {

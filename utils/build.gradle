@@ -18,14 +18,16 @@ repositories {
 
 ext {
 	springBootVersion = '3.5.13'
+	mapstructVersion = '1.6.3'
 }
 
 dependencies {
 	implementation platform("org.springframework.boot:spring-boot-dependencies:${springBootVersion}")
-//	implementation("org.projectlombok:lombok:1.18.46")
-//	compileOnly 'org.projectlombok:lombok'
-//	annotationProcessor 'org.projectlombok:lombok'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+
+	implementation("org.projectlombok:lombok:1.18.46")
+	implementation "org.mapstruct:mapstruct:${mapstructVersion}"
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
